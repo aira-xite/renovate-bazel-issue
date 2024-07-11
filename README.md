@@ -1,17 +1,12 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# minimal-reproduction-template for #30136
 
 ## Current behavior
-
-Explain the current behavior here.
+Renovate creates broken URLs if some Bazel dependencies are not defined correctly.
 
 ## Expected behavior
+Renovate creates working URLs for all dependencies. For incorrectly defined ones, nothing changes or an error is shown.
 
-Explain the expected behavior here.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/30136
